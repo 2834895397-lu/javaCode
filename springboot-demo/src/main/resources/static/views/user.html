@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/lib/easyui/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/lib/easyui/themes/icon.css">
+</head>
+<body>
+<div id="search_div">
+    <form id="searchForm">
+        用户名：<input class="easyui-textbox" name="username">
+        密码：<input class="easyui-textbox" name="password">
+        <a href="#" id="searchBtn" class="easyui-linkbutton" data-options="iconCls:'icon-search'">查询</a>
+    </form>
+
+</div>
+<div>
+    <a href="#" id="addBtn" class="easyui-linkbutton" data-options="iconCls:'icon-add'">新增</a>
+</div>
+<div>
+    <table id="dg" class="easyui-datagrid" style="width:100%;height:250px"
+           data-options="fitColumns:true,singleSelect:true,collapsible:true,url:'/user/list',method:'get',pagination:true">
+        <thead>
+        <tr>
+            <th data-options="field:'id',width:80">user ID</th>
+            <th data-options="field:'username',width:100">username</th>
+            <th data-options="field:'password',width:80,align:'right'">password</th>
+        </tr>
+        </thead>
+    </table>
+</div>
+<div id="dd" class="easyui-dialog" title="新增" style="width:400px;height:200px;"
+     data-options="iconCls:'icon-save',resizable:true,modal:true,closed:true,toolbar:'#tb'">
+    <form id="editForm">
+        <table>
+            <tr>
+                <td>用户名：</td>
+                <td><input class="easyui-textbox" name="username"></td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td><input class="easyui-textbox" name="password"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+<div id="tb">
+    <a href="#" id="saveBtn" class="easyui-linkbutton" data-options="iconCls:'icon-save',plain:true">保存</a>
+</div>
+</body>
+<script type="text/javascript" src="/lib/easyui/jquery.min.js"></script>
+<script type="text/javascript" src="/lib/easyui/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="/lib/easyui/jquery.serializejson.js"></script>
+<script>
+    $(function () {
+        $('#searchBtn').click(function () {
+            var params = $('#searchForm').serializeJSON();
+            $('#dg').datagrid('load', params);
+        });
+
+        $('#addBtn').click(function () {
+            $('#dd').dialog('open');
+        });
+
+        $('#saveBtn').click(function () {
+            var params = $('#editForm').serializeJSON();
+            $.ajax({
+                url: '/user/save',
+                type: 'post',
+                data: params,
+                success: function () {
+                    $('#dd').dialog('close');
+                    $('#dg').datagrid('reload');
+                }
+            })
+        });
+
+        $("#dg tr").appendChild("<input type='button' value='修改'>");
+    })
+
+</script>
+</html>

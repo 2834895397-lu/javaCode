@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #login{
+            position: absolute;
+            width: 400px;
+            height: 300px;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border: 1px solid pink;
+        }
+        #login > .img{
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 80px;
+            background-image: url("img/jack.jpg");
+            background-repeat: no-repeat;
+            background-size: 80px 80px;
+        }
+        #login .loginForm{
+            position: absolute;
+            text-align: center;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 80px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="login">
+    <div class="img"></div>
+    <form action="login" class="loginForm">
+        <table>
+            <tr>
+                <td>账号:</td>
+                <td><input type="text" placeholder="账号" name="username"></td>
+            </tr>
+            <tr>
+                <td>密码:</td>
+                <td><input type="password" placeholder="密码" name="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="登录"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

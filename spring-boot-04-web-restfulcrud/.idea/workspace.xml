@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0aa539b-76d1-4aa4-bf9c-2765f8e72774" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\mavenRepository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fwtQWGzmx9RGQGERe4ZInBwN7O" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot-05-security/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\IDEAWorkspace\spring-boot-04-web-restfulcrud\src\main\resources\templates\emp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\IDEAWorkspace\spring-boot-04-web-restfulcrud\src\main\resources\templates\emp" />
+      <recent name="G:\IDEAWorkspace\spring-boot-04-web-restfulcrud\src\main\resources\static\asserts\img" />
+      <recent name="G:\IDEAWorkspace\spring-boot-04-web-restfulcrud\src\main\resources\templates" />
+      <recent name="G:\IDEAWorkspace\spring-boot-04-web-restfulcrud\src\main\java\com\atguigu\springboot04" />
+      <recent name="G:\IDEAWorkspace\spring-boot-04-web-restfulcrud\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 9 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 9 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="spring-boot-04-web-restfulcrud" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringBoot04WebRestfulcrudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-04-web-restfulcrud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springboot04.SpringBoot04WebRestfulcrudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0aa539b-76d1-4aa4-bf9c-2765f8e72774" name="Default Changelist" comment="" />
+      <created>1597140967482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597140967482</updated>
+      <workItem from="1597140970675" duration="2753000" />
+      <workItem from="1597479697333" duration="4386000" />
+      <workItem from="1597485597870" duration="11022000" />
+      <workItem from="1597557063589" duration="79000" />
+      <workItem from="1597557185558" duration="245000" />
+      <workItem from="1597557661241" duration="228000" />
+      <workItem from="1597557929193" duration="5916000" />
+      <workItem from="1597563893450" duration="19568000" />
+      <workItem from="1597585935244" duration="6548000" />
+      <workItem from="1597750150555" duration="1653000" />
+      <workItem from="1598541849004" duration="685000" />
+      <workItem from="1598542575732" duration="111000" />
+      <workItem from="1598586977081" duration="1322000" />
+      <workItem from="1598750684155" duration="2439000" />
+      <workItem from="1599483651154" duration="699000" />
+      <workItem from="1599749784358" duration="182000" />
+      <workItem from="1600135431138" duration="101000" />
+      <workItem from="1600135564403" duration="2694000" />
+      <workItem from="1600141361394" duration="303000" />
+      <workItem from="1600323813087" duration="83000" />
+      <workItem from="1600326819707" duration="2868000" />
+      <workItem from="1600331793095" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="261" y="0" key="#Custom_Plugin_Repositories" timestamp="1597557010129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="0" key="#Custom_Plugin_Repositories/0.0.1536.824@0.0.1536.824" timestamp="1597557010129" />
+    <state x="233" y="0" key="#HTTP_Proxy" timestamp="1597557737018">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="233" y="0" key="#HTTP_Proxy/0.0.1536.824@0.0.1536.824" timestamp="1597557737018" />
+    <state x="261" y="0" key="#Web_Browsers" timestamp="1597483293266">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="0" key="#Web_Browsers/0.0.1536.824@0.0.1536.824" timestamp="1597483293266" />
+    <state x="530" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1597553540698">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="530" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597553540698" />
+    <state x="499" y="115" key="FileChooserDialogImpl" timestamp="1600329946014">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="115" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600329946014" />
+    <state width="1483" height="375" key="GridCell.Tab.0.bottom" timestamp="1600331746785">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="375" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600331746785" />
+    <state width="1483" height="375" key="GridCell.Tab.0.center" timestamp="1600331746785">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="375" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600331746785" />
+    <state width="1483" height="375" key="GridCell.Tab.0.left" timestamp="1600331746785">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="375" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600331746785" />
+    <state width="1483" height="375" key="GridCell.Tab.0.right" timestamp="1600331746785">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="375" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600331746785" />
+    <state width="1483" height="375" key="GridCell.Tab.1.bottom" timestamp="1600331746785">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="375" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600331746785" />
+    <state width="1483" height="375" key="GridCell.Tab.1.center" timestamp="1600331746785">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="375" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600331746785" />
+    <state width="1483" height="375" key="GridCell.Tab.1.left" timestamp="1600331746785">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="375" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600331746785" />
+    <state width="1483" height="375" key="GridCell.Tab.1.right" timestamp="1600331746785">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="375" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600331746785" />
+    <state x="157" y="0" key="SettingsEditor" timestamp="1600137958888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="157" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1600137958888" />
+    <state x="0" y="97" width="1536" height="684" key="new project wizard" timestamp="1600141664399">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="97" width="1536" height="684" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1600141664399" />
+    <state x="341" y="183" width="840" height="1034" key="run.anything.popup" timestamp="1600329690096">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="183" width="840" height="1034" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1600329690096" />
+    <state x="347" y="0" width="840" height="822" key="search.everywhere.popup" timestamp="1597801679040">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="347" y="0" width="840" height="822" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1597801679040" />
+  </component>
+</project>

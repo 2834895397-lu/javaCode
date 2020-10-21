@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <script>
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        function regist() {
+            var XMLHttpRequest;
+            if (window.XMLHttpRequest)
+            {// code for IE7+, Firefox, Chrome, Opera, Safari
+                XMLHttpRequest=new XMLHttpRequest();
+            }
+            else
+            {// code for IE6, IE5
+                XMLHttpRequest=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+
+            XMLHttpRequest.open("get", "/jdbc_war_exploded/regist?username="+username+"&password="+password, true);
+            XMLHttpRequest.send();
+            XMLHttpRequest.onreadystatechange = function () {
+                // 判断异步对象的状态
+                if(XMLHttpRequest.readyState == 4) {
+                    // 判断交互是否成功
+                    if(XMLHttpRequest.status == 200) {
+                        // 获取服务器响应的数据
+                        var res = XMLHttpRequest.responseText;
+                        document.getElementById("span").innerHTML = res;
+                    }
+                }
+
+            }
+
+
+
+        }
+    </script>
+</head>
+<body>
+<form action="/jdbc_war_exploded/login">
+    <table>
+        <tr>
+            <td>用户名：</td>
+            <td><input type="text" id="username" name="username"/></td>
+        </tr>
+        <tr>
+            <td>密码：</td>
+            <td><input type="password" id="password" name="password"/></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="登录" onclick="login()"></td>
+        </tr>
+    </table>
+
+</form>
+
+<input type="button" value="注册" onclick="regist()">
+<span id="span"></span>
+</body>
+</html>
